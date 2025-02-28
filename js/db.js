@@ -2,7 +2,7 @@ class NotesDB {
     constructor() {
         this.db = null;
         this.dbName = "pwa-tarefas-db";
-        this.dbVersion = 2; // Mudar a versão para forçar atualização
+        this.dbVersion = 2;
         this.notesStore = "tasks";
         this.init();
     }
